@@ -1,0 +1,10 @@
+@import "tailwindcss/preflight";  
+/* @import "tailwindcss/components"; */
+@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: 'CamberTRIAL-Md';
+  src: url('../public/fonts/CamberTRIAL-Lt.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}

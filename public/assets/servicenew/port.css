@@ -1,0 +1,162 @@
+.heroContainer {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  /* Blue Background (Right Half) */
+  .blueCard {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 75%;
+    height: 100%;
+    background-color: #0A2A6C;
+  }
+
+  /* Image (Centered & Overlapping) */
+  .imageContainer {
+    position: absolute;
+    top: 20%;
+    width: 55%;
+    left: 25%;
+    transform: translateX(-25%);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  }
+
+  .image {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  /* Text on Right Side Inside Blue Card */
+  .textBox {
+    position: absolute;
+    right: 10%;
+    color: white;
+    max-width: 300px;
+  }
+
+  .textBox h2 {
+
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 64px;
+    font-family: "CamberTRIAL-Md";
+    color: #ffffff;
+  }
+
+  .boldText {
+    font-weight: bold;
+  }
+
+  .knowMore {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+  }
+
+  .knowMore:hover {
+    text-decoration: underline;
+    color: #fa1b3a;
+  }
+
+  @media (max-width: 1300px) {
+  .textBox {
+      right: 5%;
+  }
+  .textBox h2 {
+      font-size: 35px;
+      line-height: 50px;
+  }
+  .blueCard {
+      height: 80%;
+  }
+  }
+
+  @media (max-width: 1040px) {
+  .blueCard {
+      height: 70%;
+  }
+  .textBox {
+      right: 1%;
+      top: 15%;
+  }
+  .textBox h2 {
+      font-size: 30px;
+      line-height: 45px;
+  }
+  }
+
+  @media (max-width: 900px) {
+  .blueCard {
+      height: 65%;
+  }
+  .textBox {
+      right: 0;
+      top: 20%;
+  }
+  .textBox h2 {
+      font-size: 24px;
+      line-height: 40px;
+  }
+  }
+
+  /* Responsive for screens less than 768px */
+  @media (max-width: 768px) {
+    .heroContainer {
+      flex-direction: column;
+      height: auto;
+      padding: 50px 20px;
+    }
+
+    .blueCard {
+      width: 100%;
+      height: 50%;
+    }
+
+    .imageContainer {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 90%;
+      transform: none;
+    }
+
+    .textBox {
+      position: relative;
+      right: 0;
+      text-align: center;
+      max-width: 100%;
+      padding-top: 20px;
+    }
+
+    .textBox h2 {
+      font-size: 28px;
+      line-height: 40px;
+      color: #000000;
+    }
+    .knowMore {
+    color: #000000;
+    }
+  }
+    @media (max-width: 430px) {
+    .blueCard {
+      height: 40%;
+    }
+    .textBox h2 {
+      font-size: 24px;
+      line-height: 36px;
+    }
+}

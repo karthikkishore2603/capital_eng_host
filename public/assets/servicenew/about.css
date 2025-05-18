@@ -1,0 +1,144 @@
+.smart-design {
+  display: flex;
+  align-items: center;
+  height: auto; /* Changed from fixed height to auto */
+  width: 95%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.image-container {
+  flex: 1.5;
+  position: relative;
+  height: 500px; /* Set a reasonable default height */
+}
+
+.content {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 45px;
+  font-weight: 400;
+  color: #092256;
+  font-family: "CamberTRIAL-Md";
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: "CamberTRIAL-Md";
+  font-size: 22px;
+  color: #808080;
+  font-weight: 350;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background: #e8ecfd;
+  color: #1a2a6c;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  font-family: "CamberTRIAL-Md";
+  font-size: 24px;
+  cursor: pointer;
+  transition: 0.3s;
+  align-self: flex-start;
+}
+
+.cta-button:hover {
+  background: #d0d9fa;
+}
+
+@media (max-width: 1300px) {
+  h2 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+  
+  .cta-button {
+    padding: 20px 40px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .smart-design {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .image-container {
+    width: 100%;
+    height: 400px;
+    flex: none;
+  }
+
+  .content {
+    width: 100%;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .cta-button {
+    align-self: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .image-container {
+    height: 350px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .cta-button {
+    padding: 15px 30px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .smart-design {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .image-container {
+    height: 250px;
+    width: 100%;
+  }
+
+  .content {
+    padding: 20px 15px;
+    text-align: left;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .cta-button {
+    padding: 12px 25px;
+    font-size: 16px;
+  }
+}
