@@ -16,7 +16,7 @@ export default function HomePage1() {
   return (
     <>
       <SearchPopup />
-      {/* <Header3 /> */}
+      <Header3 />
       {/* <Hero /> */}
      <div style={styles.container}>
       <iframe
