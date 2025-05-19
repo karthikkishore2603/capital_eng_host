@@ -5,7 +5,6 @@ import Head from "next/head";
 import railway from "@/public/assets/images/railway.jpg";
 
 export default function SectorDetails() {
-
   const slideroptions = {
     arrows: true,
     autoplay: true,
@@ -54,10 +53,7 @@ export default function SectorDetails() {
         />
         <meta name="robots" content="index, follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link
-          rel="canonical"
-          href="https://www.capitalengg.com/railways"
-        />
+        <link rel="canonical" href="https://www.capitalengg.com/railways" />
         {/* Open Graph Tags */}
         <meta
           property="og:title"
@@ -147,12 +143,12 @@ export default function SectorDetails() {
                 <div className="navigation-links-container">
                   <div className="navigation-links">
                     {[
+                      { text: "Commercial", url: "/commercial" },
                       { text: "Education", url: "/education" },
                       { text: "Railways", url: "/railways" },
                       { text: "Shelters", url: "/shelters" },
                       { text: "Oil & Gas", url: "/oil-and-gas" },
                       { text: "Power & Energy", url: "/power-and-energy" },
-                      { text: "Commercial", url: "/commercial" },
                       { text: "Marine & Ports", url: "/marine-and-ports" },
                       {
                         text: "Healthcare & Hospitality",
@@ -328,10 +324,10 @@ export default function SectorDetails() {
                   At <strong>Capital Engineering Consultancy</strong>, we
                   understand that the railway sector is undergoing immense
                   transformation. From high-speed rail to innovative signaling
-                  systems, the need for expertise in complex engineering solutions
-                  is paramount. We deliver modern, high-performance rail solutions
-                  that enhance connectivity, optimize operations, and support
-                  sustainable transportation.
+                  systems, the need for expertise in complex engineering
+                  solutions is paramount. We deliver modern, high-performance
+                  rail solutions that enhance connectivity, optimize operations,
+                  and support sustainable transportation.
                 </p>
               </div>
               <h2 style={{ color: "#071E53", marginBottom: "20px" }}>
@@ -341,21 +337,17 @@ export default function SectorDetails() {
                 Railway projects demand efficiency, safety, and innovation. Our
                 specialized solutions include:
                 <br />
-                <b style={{ color: "#071E53" }}>
-                  • Track Engineering:
-                </b>{" "}
-                Designing and constructing robust tracks for smooth and efficient
-                train operations.
+                <b style={{ color: "#071E53" }}>• Track Engineering:</b>{" "}
+                Designing and constructing robust tracks for smooth and
+                efficient train operations.
                 <br />
                 <b style={{ color: "#071E53" }}>
                   • Signalling and Communication Systems:
                 </b>{" "}
-                Implementing state-of-the-art systems for safe and reliable train
-                control.
+                Implementing state-of-the-art systems for safe and reliable
+                train control.
                 <br />
-                <b style={{ color: "#071E53" }}>
-                  • Power Supply Systems:
-                </b>{" "}
+                <b style={{ color: "#071E53" }}>• Power Supply Systems:</b>{" "}
                 Ensuring reliable power supply to electric trains through
                 efficient infrastructure.
                 <br />

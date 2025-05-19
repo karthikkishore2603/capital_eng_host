@@ -149,12 +149,12 @@ export default function SectorDetails() {
                 <div className="navigation-links-container">
                   <div className="navigation-links">
                     {[
+                      { text: "Commercial", url: "/commercial" },
                       { text: "Education", url: "/education" },
                       { text: "Railways", url: "/railways" },
                       { text: "Shelters", url: "/shelters" },
                       { text: "Oil & Gas", url: "/oil-and-gas" },
                       { text: "Power & Energy", url: "/power-and-energy" },
-                      { text: "Commercial", url: "/commercial" },
                       { text: "Marine & Ports", url: "/marine-and-ports" },
                       {
                         text: "Healthcare & Hospitality",
@@ -371,8 +371,9 @@ export default function SectorDetails() {
                 <b style={{ color: "#071E53" }}>
                   • Smart Port Technology:
                 </b>{" "}
-                Implementing automation, IoT, and AI-driven systems for real-time
-                tracking, predictive maintenance, and improved security.
+                Implementing automation, IoT, and AI-driven systems for
+                real-time tracking, predictive maintenance, and improved
+                security.
               </p>
             </article>
           </div>

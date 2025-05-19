@@ -50,7 +50,9 @@ export default function SectorDetails() {
     <>
       {/* Head for SEO Metadata */}
       <Head>
-        <title>Healthcare & Hospitality | Capital Engineering Consultancy</title>
+        <title>
+          Healthcare & Hospitality | Capital Engineering Consultancy
+        </title>
         <meta
           name="description"
           content="Discover our healthcare and hospitality solutions at Capital Engineering Consultancy, designing patient-centric hospitals, luxury resorts, and sustainable facilities."
@@ -154,12 +156,12 @@ export default function SectorDetails() {
                 <div className="navigation-links-container">
                   <div className="navigation-links">
                     {[
+                      { text: "Commercial", url: "/commercial" },
                       { text: "Education", url: "/education" },
                       { text: "Railways", url: "/railways" },
                       { text: "Shelters", url: "/shelters" },
                       { text: "Oil & Gas", url: "/oil-and-gas" },
                       { text: "Power & Energy", url: "/power-and-energy" },
-                      { text: "Commercial", url: "/commercial" },
                       { text: "Marine & Ports", url: "/marine-and-ports" },
                       {
                         text: "Healthcare & Hospitality",

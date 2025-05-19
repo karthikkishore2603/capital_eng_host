@@ -154,12 +154,12 @@ export default function SectorDetails() {
                 <div className="navigation-links-container">
                   <div className="navigation-links">
                     {[
+                      { text: "Commercial", url: "/commercial" },
                       { text: "Education", url: "/education" },
                       { text: "Railways", url: "/railways" },
                       { text: "Shelters", url: "/shelters" },
                       { text: "Oil & Gas", url: "/oil-and-gas" },
                       { text: "Power & Energy", url: "/power-and-energy" },
-                      { text: "Commercial", url: "/commercial" },
                       { text: "Marine & Ports", url: "/marine-and-ports" },
                       {
                         text: "Healthcare & Hospitality",
@@ -332,29 +332,29 @@ export default function SectorDetails() {
                   Roads and Infrastructure
                 </h1>
                 <p className="sec-text mt-30" style={{ textAlign: "justify" }}>
-                  At <strong>Capital Engineering Consultancy</strong>, we help you
-                  shape thriving communities with innovative and resilient road
-                  and infrastructure solutions. Whether it’s designing efficient
-                  roadways or optimizing utility networks, we focus on systems
-                  that meet modern demands while anticipating future needs.
+                  At <strong>Capital Engineering Consultancy</strong>, we help
+                  you shape thriving communities with innovative and resilient
+                  road and infrastructure solutions. Whether it’s designing
+                  efficient roadways or optimizing utility networks, we focus on
+                  systems that meet modern demands while anticipating future
+                  needs.
                 </p>
               </div>
               <h2 style={{ color: "#071E53", marginBottom: "20px" }}>
                 Solutions That Empower Growth
               </h2>
               <p className="sec-text mb-n1" style={{ textAlign: "justify" }}>
-                Roads and infrastructure are more than pathways—they are lifelines
-                that connect people, support economic growth, and enhance quality
-                of life. With extensive experience in projects across the UAE and
-                India, including residential development roads in Hoshi area, our
-                approach integrates functionality, sustainability, and long-term
-                performance into every project. Our specialized solutions include:
+                Roads and infrastructure are more than pathways—they are
+                lifelines that connect people, support economic growth, and
+                enhance quality of life. With extensive experience in projects
+                across the UAE and India, including residential development
+                roads in Hoshi area, our approach integrates functionality,
+                sustainability, and long-term performance into every project.
+                Our specialized solutions include:
                 <br />
-                <b style={{ color: "#071E53" }}>
-                  • Smart Roadway Design:
-                </b>{" "}
-                Streamlining traffic flow, reducing congestion, and ensuring safe
-                and efficient transportation for all.
+                <b style={{ color: "#071E53" }}>• Smart Roadway Design:</b>{" "}
+                Streamlining traffic flow, reducing congestion, and ensuring
+                safe and efficient transportation for all.
                 <br />
                 <b style={{ color: "#071E53" }}>
                   • Advanced Drainage Systems:
@@ -362,11 +362,9 @@ export default function SectorDetails() {
                 Protecting urban areas from flooding with sustainable stormwater
                 and wastewater management.
                 <br />
-                <b style={{ color: "#071E53" }}>
-                  • Integrated Utilities:
-                </b>{" "}
-                Connecting power, telecommunications, and water systems seamlessly
-                to support daily life.
+                <b style={{ color: "#071E53" }}>• Integrated Utilities:</b>{" "}
+                Connecting power, telecommunications, and water systems
+                seamlessly to support daily life.
                 <br />
                 <b style={{ color: "#071E53" }}>
                   • Public Safety Enhancements:

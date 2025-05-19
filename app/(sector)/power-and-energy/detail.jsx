@@ -154,12 +154,12 @@ export default function SectorDetails() {
                 <div className="navigation-links-container">
                   <div className="navigation-links">
                     {[
+                      { text: "Commercial", url: "/commercial" },
                       { text: "Education", url: "/education" },
                       { text: "Railways", url: "/railways" },
                       { text: "Shelters", url: "/shelters" },
                       { text: "Oil & Gas", url: "/oil-and-gas" },
                       { text: "Power & Energy", url: "/power-and-energy" },
-                      { text: "Commercial", url: "/commercial" },
                       { text: "Marine & Ports", url: "/marine-and-ports" },
                       {
                         text: "Healthcare & Hospitality",
@@ -336,17 +336,17 @@ export default function SectorDetails() {
                   understand that energy infrastructure is not just about
                   delivering power, it is about driving progress, minimizing
                   environmental impact, and creating a resilient foundation for
-                  the future. Whether you are advancing waste-to-energy solutions
-                  or modernizing grid systems, we collaborate with you to turn
-                  vision into reality.
+                  the future. Whether you are advancing waste-to-energy
+                  solutions or modernizing grid systems, we collaborate with you
+                  to turn vision into reality.
                 </p>
               </div>
               <h2 style={{ color: "#071E53", marginBottom: "20px" }}>
                 How We Power Your Vision
               </h2>
               <p className="sec-text mb-n1" style={{ textAlign: "justify" }}>
-                Power & Energy projects require reliability and sustainability. We
-                specialize in efficient, future-ready solutions that optimize
+                Power & Energy projects require reliability and sustainability.
+                We specialize in efficient, future-ready solutions that optimize
                 performance, reduce costs, and support clean energy integration.
                 <br />
                 <b style={{ color: "#071E53" }}>
@@ -365,8 +365,9 @@ export default function SectorDetails() {
                 <b style={{ color: "#071E53" }}>
                   • Advanced Energy Storage:
                 </b>{" "}
-                From cutting-edge battery systems to thermal solutions, we deliver
-                technologies that stabilize grids and improve energy availability.
+                From cutting-edge battery systems to thermal solutions, we
+                deliver technologies that stabilize grids and improve energy
+                availability.
                 <br />
                 <b style={{ color: "#071E53" }}>
                   • Renewable Integration:
@@ -378,8 +379,8 @@ export default function SectorDetails() {
                 <b style={{ color: "#071E53" }}>
                   • Modern Grid Solutions:
                 </b>{" "}
-                Smart grid systems designed to balance loads, reduce energy loss,
-                and adapt to future demand growth.
+                Smart grid systems designed to balance loads, reduce energy
+                loss, and adapt to future demand growth.
               </p>
             </article>
           </div>

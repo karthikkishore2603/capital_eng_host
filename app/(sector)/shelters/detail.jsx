@@ -61,10 +61,7 @@ export default function SectorDetails() {
         />
         <meta name="robots" content="index, follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link
-          rel="canonical"
-          href="https://www.capitalengg.com/shelters"
-        />
+        <link rel="canonical" href="https://www.capitalengg.com/shelters" />
         {/* Open Graph Tags */}
         <meta
           property="og:title"
@@ -154,12 +151,12 @@ export default function SectorDetails() {
                 <div className="navigation-links-container">
                   <div className="navigation-links">
                     {[
+                      { text: "Commercial", url: "/commercial" },
                       { text: "Education", url: "/education" },
                       { text: "Railways", url: "/railways" },
                       { text: "Shelters", url: "/shelters" },
                       { text: "Oil & Gas", url: "/oil-and-gas" },
                       { text: "Power & Energy", url: "/power-and-energy" },
-                      { text: "Commercial", url: "/commercial" },
                       { text: "Marine & Ports", url: "/marine-and-ports" },
                       {
                         text: "Healthcare & Hospitality",
@@ -333,16 +330,17 @@ export default function SectorDetails() {
                 </h1>
                 <p className="sec-text mt-30" style={{ textAlign: "justify" }}>
                   At <strong>Capital Engineering Consultancy</strong>, we
-                  specialize in designing, constructing, and modernizing shelters
-                  and protective spaces. Our solutions include civil defense
-                  shelters, bomb shelters, government and industrial bunkers, safe
-                  rooms, prefabricated shelters, and other structures tailored to
-                  safeguard lives and assets during emergencies.
+                  specialize in designing, constructing, and modernizing
+                  shelters and protective spaces. Our solutions include civil
+                  defense shelters, bomb shelters, government and industrial
+                  bunkers, safe rooms, prefabricated shelters, and other
+                  structures tailored to safeguard lives and assets during
+                  emergencies.
                 </p>
                 <p className="sec-text mt-30" style={{ textAlign: "justify" }}>
                   Whether addressing natural disasters, conflicts, or chemical
-                  threats, our shelters provide robust protection and adaptability
-                  for a variety of scenarios.
+                  threats, our shelters provide robust protection and
+                  adaptability for a variety of scenarios.
                 </p>
               </div>
               <h2 style={{ color: "#071E53", marginBottom: "20px" }}>
@@ -352,28 +350,20 @@ export default function SectorDetails() {
                 We prioritize safety, accessibility, and sustainability in every
                 project:
                 <br />
-                <b style={{ color: "#071E53" }}>
-                  • Structural Integrity:
-                </b>{" "}
-                Our shelters are designed to withstand extreme weather, seismic
+                <b style={{ color: "#071E53" }}>• Structural Integrity:</b> Our
+                shelters are designed to withstand extreme weather, seismic
                 events, and other severe threats.
                 <br />
-                <b style={{ color: "#071E53" }}>
-                  • Health and Hygiene:
-                </b>{" "}
-                Features are integrated to maintain sanitary conditions, ensuring
-                occupant safety during prolonged use.
+                <b style={{ color: "#071E53" }}>• Health and Hygiene:</b>{" "}
+                Features are integrated to maintain sanitary conditions,
+                ensuring occupant safety during prolonged use.
                 <br />
-                <b style={{ color: "#071E53" }}>
-                  • Energy Efficiency:
-                </b>{" "}
-                By incorporating sustainable materials and technologies, we reduce
+                <b style={{ color: "#071E53" }}>• Energy Efficiency:</b> By
+                incorporating sustainable materials and technologies, we reduce
                 energy consumption and operational costs.
                 <br />
-                <b style={{ color: "#071E53" }}>
-                  • Community Integration:
-                </b>{" "}
-                Our designs foster social cohesion, usability, and resilience,
+                <b style={{ color: "#071E53" }}>• Community Integration:</b> Our
+                designs foster social cohesion, usability, and resilience,
                 making them functional and adaptable for diverse needs.
               </p>
             </article>

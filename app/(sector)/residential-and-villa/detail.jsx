@@ -154,12 +154,12 @@ export default function SectorDetails() {
                 <div className="navigation-links-container">
                   <div className="navigation-links">
                     {[
+                      { text: "Commercial", url: "/commercial" },
                       { text: "Education", url: "/education" },
                       { text: "Railways", url: "/railways" },
                       { text: "Shelters", url: "/shelters" },
                       { text: "Oil & Gas", url: "/oil-and-gas" },
                       { text: "Power & Energy", url: "/power-and-energy" },
-                      { text: "Commercial", url: "/commercial" },
                       { text: "Marine & Ports", url: "/marine-and-ports" },
                       {
                         text: "Healthcare & Hospitality",
@@ -344,19 +344,16 @@ export default function SectorDetails() {
                 How We Elevate Residential Living
               </h2>
               <p className="sec-text mb-n1" style={{ textAlign: "justify" }}>
-                We design residences that elevate living standards by focusing on:
+                We design residences that elevate living standards by focusing
+                on:
                 <br />
-                <b style={{ color: "#071E53" }}>
-                  • Individualized Design:
-                </b>{" "}
-                We go beyond aesthetics to reflect your vision and maximize
-                comfort and usability, whether a luxurious villa or a cozy private
+                <b style={{ color: "#071E53" }}>• Individualized Design:</b> We
+                go beyond aesthetics to reflect your vision and maximize comfort
+                and usability, whether a luxurious villa or a cozy private
                 residence.
                 <br />
-                <b style={{ color: "#071E53" }}>
-                  • Optimized Layouts:
-                </b>{" "}
-                Every space is meticulously planned for seamless functionality,
+                <b style={{ color: "#071E53" }}>• Optimized Layouts:</b> Every
+                space is meticulously planned for seamless functionality,
                 prioritizing both practicality and visual appeal.
                 <br />
                 <b style={{ color: "#071E53" }}>
@@ -369,8 +366,8 @@ export default function SectorDetails() {
                 <b style={{ color: "#071E53" }}>
                   • Sustainability at the Core:
                 </b>{" "}
-                Designs that integrate eco-friendly practices without compromising
-                style.
+                Designs that integrate eco-friendly practices without
+                compromising style.
               </p>
             </article>
           </div>

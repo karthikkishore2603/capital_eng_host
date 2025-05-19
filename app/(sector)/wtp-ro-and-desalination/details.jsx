@@ -149,12 +149,12 @@ export default function SectorDetails() {
                 <div className="navigation-links-container">
                   <div className="navigation-links">
                     {[
+                      { text: "Commercial", url: "/commercial" },
                       { text: "Education", url: "/education" },
                       { text: "Railways", url: "/railways" },
                       { text: "Shelters", url: "/shelters" },
                       { text: "Oil & Gas", url: "/oil-and-gas" },
                       { text: "Power & Energy", url: "/power-and-energy" },
-                      { text: "Commercial", url: "/commercial" },
                       { text: "Marine & Ports", url: "/marine-and-ports" },
                       {
                         text: "Healthcare & Hospitality",
@@ -339,7 +339,8 @@ export default function SectorDetails() {
                   <strong>
                     water demands, enhance resource recovery, and comply with
                     environmental regulations
-                  </strong>.
+                  </strong>
+                  .
                 </p>
               </div>
               <h2 style={{ color: "#071E53", marginBottom: "20px" }}>
@@ -359,20 +360,21 @@ export default function SectorDetails() {
                 <b style={{ color: "#071E53" }}>
                   • Advanced Wastewater Treatment:
                 </b>{" "}
-                Implementing biological, chemical, and membrane-based processes to
-                ensure effective purification and regulatory compliance.
+                Implementing biological, chemical, and membrane-based processes
+                to ensure effective purification and regulatory compliance.
                 <br />
                 <b style={{ color: "#071E53" }}>
                   • Wastewater Recycling & Reuse:
                 </b>{" "}
-                Designing sustainable treatment systems that enable water recovery
-                for irrigation, industrial processes, and potable applications.
+                Designing sustainable treatment systems that enable water
+                recovery for irrigation, industrial processes, and potable
+                applications.
                 <br />
                 <b style={{ color: "#071E53" }}>
                   • Energy-Efficient Solutions:
                 </b>{" "}
-                Integrating energy recovery devices and renewable-powered systems
-                to reduce operational costs and environmental impact.
+                Integrating energy recovery devices and renewable-powered
+                systems to reduce operational costs and environmental impact.
               </p>
             </article>
           </div>

@@ -11,12 +11,20 @@ export default function SectorDetails() {
     arrows: true,
     autoplay: true,
     prevArrow: (
-      <button type="button" className="slick-prev slick-arrow" aria-label="Previous Slide">
+      <button
+        type="button"
+        className="slick-prev slick-arrow"
+        aria-label="Previous Slide"
+      >
         <i className="fas fa-arrow-left"></i>
       </button>
     ),
     nextArrow: (
-      <button type="button" className="slick-next slick-arrow" aria-label="Next Slide">
+      <button
+        type="button"
+        className="slick-next slick-arrow"
+        aria-label="Next Slide"
+      >
         <i className="fas fa-arrow-right"></i>
       </button>
     ),
@@ -91,34 +99,54 @@ export default function SectorDetails() {
         <meta name="robots" content="index, follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://www.capitalengg.com/commercial" />
-        
         {/* Open Graph Tags (Enhanced) */}
-        <meta property="og:title" content="Commercial Sector | Capital Engineering Consultancy" />
+        <meta
+          property="og:title"
+          content="Commercial Sector | Capital Engineering Consultancy"
+        />
         <meta
           property="og:description"
           content="Discover our commercial sector expertise at Capital Engineering Consultancy, specializing in retail, office spaces, mixed-use developments, automobile showrooms, and food & beverage outlets."
         />
-        <meta property="og:url" content="https://www.capitalengg.com/commercial" />
+        <meta
+          property="og:url"
+          content="https://www.capitalengg.com/commercial"
+        />
         <meta property="og:type" content="website" />
         <meta property="og:image" content={commercial1.src} />
-        <meta property="og:image:width" content="1296" /> {/* Added for image specificity */}
+        <meta property="og:image:width" content="1296" />{" "}
+        {/* Added for image specificity */}
         <meta property="og:image:height" content="700" />
-        <meta property="og:image:alt" content="Commercial project by Capital Engineering Consultancy" />
-        <meta property="og:site_name" content="Capital Engineering Consultancy" />
-
+        <meta
+          property="og:image:alt"
+          content="Commercial project by Capital Engineering Consultancy"
+        />
+        <meta
+          property="og:site_name"
+          content="Capital Engineering Consultancy"
+        />
         {/* Twitter Card Tags (Enhanced) */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Commercial Sector | Capital Engineering Consultancy" />
+        <meta
+          name="twitter:title"
+          content="Commercial Sector | Capital Engineering Consultancy"
+        />
         <meta
           name="twitter:description"
           content="Discover our commercial sector expertise at Capital Engineering Consultancy, specializing in retail, office spaces, mixed-use developments, automobile showrooms, and food & beverage outlets."
         />
         <meta name="twitter:image" content={commercial1.src} />
-        <meta name="twitter:image:alt" content="Commercial project by Capital Engineering Consultancy" />
-        <meta name="twitter:site" content="@CapitalEngg" /> {/* Replace with actual Twitter handle */}
-
+        <meta
+          name="twitter:image:alt"
+          content="Commercial project by Capital Engineering Consultancy"
+        />
+        <meta name="twitter:site" content="@CapitalEngg" />{" "}
+        {/* Replace with actual Twitter handle */}
         {/* Schema Markup */}
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+        />
       </Head>
 
       <section
@@ -139,14 +167,18 @@ export default function SectorDetails() {
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1296px" // Responsive image sizes
               />
               <figcaption className="visually-hidden">
-                Commercial project showcasing retail and office spaces by Capital Engineering Consultancy
+                Commercial project showcasing retail and office spaces by
+                Capital Engineering Consultancy
               </figcaption>
             </figure>
           </div>
 
           <div className="row justify-content-between flex-row-reverse">
             <div className="col-xl-3 col-lg-4 d-none d-lg-block">
-              <nav className="elite-navigation-column" aria-label="Sector Navigation">
+              <nav
+                className="elite-navigation-column"
+                aria-label="Sector Navigation"
+              >
                 <div className="navigation-header">
                   <div className="header-accent"></div>
                   <h3 className="navigation-title" style={{ color: "white" }}>
@@ -179,12 +211,12 @@ export default function SectorDetails() {
                 <div className="navigation-links-container">
                   <div className="navigation-links">
                     {[
+                      { text: "Commercial", url: "/commercial" },
                       { text: "Education", url: "/education" },
                       { text: "Railways", url: "/railways" },
                       { text: "Shelters", url: "/shelters" },
                       { text: "Oil & Gas", url: "/oil-and-gas" },
                       { text: "Power & Energy", url: "/power-and-energy" },
-                      { text: "Commercial", url: "/commercial" },
                       { text: "Marine & Ports", url: "/marine-and-ports" },
                       {
                         text: "Healthcare & Hospitality",
@@ -208,7 +240,9 @@ export default function SectorDetails() {
                         href={item.url}
                         className="nav-link"
                         rel={item.url === "/commercial" ? "" : "nofollow"} // Conditional rel for current page
-                        aria-current={item.url === "/commercial" ? "page" : undefined}
+                        aria-current={
+                          item.url === "/commercial" ? "page" : undefined
+                        }
                       >
                         <span className="link-text">{item.text}</span>
                         <span className="link-arrow">
@@ -348,16 +382,20 @@ export default function SectorDetails() {
               }
             `}</style>
 
-<article className="col-lg-8">
+            <article className="col-lg-8">
               <div className="title-area mb-35">
-                <h1 className="sec-title fs-1" id="commercial-title" style={{ color: "#071E53" }}>
+                <h1
+                  className="sec-title fs-1"
+                  id="commercial-title"
+                  style={{ color: "#071E53" }}
+                >
                   Commercial
                 </h1>
                 <p className="sec-text mt-30" style={{ textAlign: "justify" }}>
                   At <strong>Capital Engineering Consultancy</strong>, we
                   understand that commercial spaces must seamlessly integrate
-                  functionality, efficiency, and aesthetics to create environments
-                  that drive success. Whether it&apos;s{" "}
+                  functionality, efficiency, and aesthetics to create
+                  environments that drive success. Whether it&apos;s{" "}
                   <strong>
                     retail, office spaces, mixed-use developments, automobile
                     showrooms and food & beverage outlets
@@ -375,15 +413,19 @@ export default function SectorDetails() {
                 expertise ensures that every space is strategically planned to
                 align with business objectives while adapting to future demands:
                 <br />
-                <b style={{ color: "#071E53" }}>• Retail Excellence:</b> Designing
-                layouts that enhance customer experiences, maximize space
-                utilization, and boost foot traffic.
+                <b style={{ color: "#071E53" }}>• Retail Excellence:</b>{" "}
+                Designing layouts that enhance customer experiences, maximize
+                space utilization, and boost foot traffic.
                 <br />
-                <b style={{ color: "#071E53" }}>• Dynamic Office Spaces:</b>{" "}
-                Crafting flexible, collaborative environments that drive employee
-                productivity and satisfaction.
+                <b style={{ color: "#071E53" }}>
+                  • Dynamic Office Spaces:
+                </b>{" "}
+                Crafting flexible, collaborative environments that drive
+                employee productivity and satisfaction.
                 <br />
-                <b style={{ color: "#071E53" }}>• Mixed-Use Innovations:</b>{" "}
+                <b style={{ color: "#071E53" }}>
+                  • Mixed-Use Innovations:
+                </b>{" "}
                 Combining retail, residential, and office spaces into cohesive
                 developments that cater to diverse user needs.
                 <br />
