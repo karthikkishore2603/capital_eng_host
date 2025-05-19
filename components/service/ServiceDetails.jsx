@@ -26,7 +26,7 @@ export default function ServiceDetails({ serviceId }) {
             <div className="title-area mb-35">
               <h2 className="sec-title">{serviceItem.title}</h2>
               <p className="sec-text mt-30">
-                BaseCreate is pleased to announce that it has been commissioned
+                BaseCreate is pleased to announced that it has been commissioned
                 by Leighton Asia reposition its brand. We will help Leighton
                 Asia evolve its brand strategy, and will be responsible updating
                 Leighton Asia’s brand identity, website, and other collaterals.
