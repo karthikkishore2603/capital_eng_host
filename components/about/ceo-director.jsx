@@ -43,7 +43,7 @@ export default function MessageCeo() {
         }}
       >
         <p>
-          Established in 2006 and headquartered in the UAE, Capital Engineering Consultancy is a leading multidisciplinary firm with a presence in KSA, Oman, Egypt, India, Iraq, and the UK. Blending tradition with innovation, we deliver practical and sustainable solutions across architecture, structural engineering, roads, infrastructure, and oil & gas.
+          Established in 2006 and headquartered in the UAE, Capital Engineering Consultancy is a leading multidisciplinary firm with a presence in KSA, Oman, Egypt, India and Iraq. Blending tradition with innovation, we deliver practical and sustainable solutions across architecture, structural engineering, roads, infrastructure, and oil & gas.
         </p>
         <p>
           Driven by excellence, commitment, and perseverance, we reshape the engineering landscape through quality and innovation. Catering to both public and private sectors, we ensure exceptional value and transformative solutions worldwide.
