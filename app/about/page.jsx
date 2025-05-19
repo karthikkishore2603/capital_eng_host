@@ -8,7 +8,6 @@ import MessageCeo from "@/components/about/ceo-director";
 import Vision from "@/components/about/vision";
 import Philosophy from "@/components/about/philosophy";
 import Team from "@/components/about/Team";
-import MarqueeComponent from "./Marquee";
 import Footer8 from "@/components/footers/Footer8";
 import Header3 from "@/components/headers/Header3";
 import Head from "next/head";

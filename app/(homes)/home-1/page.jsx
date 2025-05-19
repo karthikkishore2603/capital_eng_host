@@ -1,5 +1,5 @@
-import Footer1 from "@/components/footers/Footer1";
-import Header3 from "@/components/headers/Header3";
+import Footer8 from "@/components/footers/Footer8";
+import Header3 from "@/components/headers/HeaderHome";
 import SearchPopup from "@/components/headers/component/SearchPopup";
 import About from "@/components/homes/home-1/About";
 import Blogs from "@/components/homes/common/Blogs";
@@ -33,7 +33,7 @@ export default function HomePage1() {
       <Team />
       <Testimonials />
       <Blogs />*/}
-      <Footer1 /> 
+      <Footer8 /> 
     </>
   );
 }

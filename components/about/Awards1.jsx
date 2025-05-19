@@ -49,6 +49,12 @@ export default function Projects5() {
     
         title: "HAWK FREIGHT SERVICES LLC",
       },
+      {
+        id: 14,
+        imageSrc: "/assets/img/award/polyfab.jpg",
+    
+        title: "POLYFAB PLASTIC INDUSTRY L.L.C",
+      },
   ];
 
   const sliderSettings = {
