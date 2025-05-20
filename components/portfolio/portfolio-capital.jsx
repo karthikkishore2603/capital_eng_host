@@ -507,7 +507,9 @@ export default function PortfolioPage() {
                     <line x1="9" y1="9" x2="15" y2="9"></line>
                     <line x1="9" y1="15" x2="15" y2="15"></line>
                   </svg>
-                  {filteredItems.length} items
+                  {currentCategory === "All"
+                    ? "7000+ items"
+                    : `${filteredItems.length} items`}
                 </span>
               </h2>
             </div>
